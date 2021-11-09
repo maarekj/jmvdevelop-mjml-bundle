@@ -1,0 +1,6 @@
+services:
+    JmvDevelop\MjmlBundle\MjmlRenderer:
+        arguments:
+            "$cache": "@jmv_develop_mjml.cache"
+            "$nodejsBin": "%jmv_develop_mjml.nodejs_bin%"
+            "$mjmlBin": "%jmv_develop_mjml.mjml_bin%"

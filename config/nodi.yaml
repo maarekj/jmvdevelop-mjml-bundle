@@ -1,0 +1,5 @@
+services:
+    JmvDevelop\MjmlBundle\Nodi\MjmlRenderer:
+        autowire: true
+        tags:
+            - { name: 'jmv_develop_nodi.renderer' }

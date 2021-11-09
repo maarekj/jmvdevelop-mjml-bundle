@@ -1,0 +1,5 @@
+services:
+    JmvDevelop\MjmlBundle\Twig\MjmlTwigExtension:
+        autowire: true
+        tags:
+            - { name: 'twig.extension' }
